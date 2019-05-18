@@ -1,0 +1,9 @@
+首先，需要新建一个数据库mybatis01，并在mybatis01下新建一张表employee，可以自己先插入几条记录方便测试
+
+sprintboot-mybatis实现员工的增删改查
+    1、EmployeeController
+    定义浏览器的查找规范，在注解中给出了相应的示例，针对不同的查询调用EmployeeService层的不同功能代码
+    2、EmployeeService
+    定义不同功能代码 eg：增删改查
+    3、EmployeeMapper
+    跟数据库交互，完成针对数据库的不同操作，eg：增删改查
